@@ -12,20 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anandkumarpatel/rest-fs.git"
+    "url": "https://github.com/sevcio/rest-fs.git"
   },
   "keywords": [
     "rest-fs",
     "fileserver"
   ],
-  "author": "Anandkumar Patel",
+  "author": "Anandkumar Patel, Wojciech Gucik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anandkumarpatel/rest-fs/issues"
+    "url": "https://github.com/sevcio/rest-fs/issues"
   },
-  "homepage": "https://github.com/anandkumarpatel/rest-fs",
+  "homepage": "https://github.com/sevcio/rest-fs",
   "dependencies": {
-    "express": "4.7.3",
+    "express": "4.9.1",
     "body-parser": "1.5.2",
     "findit": "^1.2.0",
     "mv": "^2.0.0",

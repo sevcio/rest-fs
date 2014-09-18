@@ -1,3 +1,9 @@
+
+This is fork from https://github.com/anandkumarpatel/rest-fs
+
+**All credit goes there.**
+
+
 rest-fs
 =====
 
@@ -29,9 +35,9 @@ for debug info
 
 ```
 app = require('express')();
-restfs = require('rest-fs')
-restfs(app);
-app.listen(3000)
+restfs = require('rest-fs');
+restfs(app, prefix); /* prefix - default system path, from which you cannot go up dir. */
+app.listen(3000);
 ```
 To use programmatically, pass in the app into restfs and it will add the routes.
 you can attach a function to modifyOut to manipulate file output.
